@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "randommorphmod",
+  "version": "1.0.0",
+  "name": "Random Morph Mod",
+  "description": "Morphs you into random mobs.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.example.randommorphmod.RandomMorphModClient"
+    ],
+    "main": [
+      "com.example.randommorphmod.RandomMorphMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
